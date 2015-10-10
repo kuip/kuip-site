@@ -1,0 +1,90 @@
+
+
+
+
+.stage {
+  height:100%;
+  width:100%;
+}
+.content {
+  /*width:65%;*/
+  margin-right: auto;
+  margin-left: auto;
+}
+.content2 {
+  width:100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.horse {
+  position: absolute;
+  bottom: 1%;
+
+
+  
+  left:-200px;
+  -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+
+#sync1 .item{
+    background: #eee;
+    padding: 0;
+    padding-top: 5px;
+    margin: 0;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    overflow: hidden;
+}
+#sync2 .item{
+    background: #eee;
+    padding: 0;
+    margin: 10px 5px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+#sync2 .item h1{
+  font-size: 18px;
+}
+#sync2 .synced .item{
+  background: #ddd;
+}
+
+.bigtext {
+  font-size: 1.8em !important;
+}
+
+.divider {
+  margin: 100px 0px !important;
+}
+
+@media (max-width: 979px) {
+  .content {
+    width:100%;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+  .content {
+    width: 65%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .content {
+    width: 50%;
+  }
+}
