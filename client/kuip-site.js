@@ -88,6 +88,7 @@ Template.carousel.onRendered(function() {
     itemsMobile       : [479,2],
     pagination: true,
     responsiveRefreshRate : 100,
+    lazyLoad : true,
     afterInit : function(el){
       el.find(".owl-item").eq(0).addClass("synced");
     }
