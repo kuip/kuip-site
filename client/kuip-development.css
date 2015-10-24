@@ -1,6 +1,23 @@
+body {
+  background-color: #DFE4E1;
+}
 
+.headerImage {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  z-index: -10;
+}
 
+.himage {
+  width: 100%;
+  margin-top: -25%;
+}
 
+.item {
+  padding: 0 !important;
+  margin-bottom: -5px !important;
+}
 
 .stage {
   height:100%;
@@ -93,10 +110,26 @@ a {
   .content {
     width: 65%;
   }
+  .himage {
+    margin-top: -18%;
+  }
 }
 
 @media (min-width: 1200px) {
   .content {
     width: 50%;
+  }
+  .himage {
+    margin-top: -24.5%;
+  }
+  .services {
+    margin-top: 250px !important;
+  }
+}
+
+@media only screen 
+  and (max-device-width: 736px) {
+    .content {
+    width:100%;
   }
 }
