@@ -1,0 +1,16 @@
+<svg width="1448" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="svg_2" x1="0" y1="0.66797" x2="0" y2="0.90234">
+   <stop stop-color="#bec8c2" offset="0"/>
+   <stop stop-color="#dfe4e1" stop-opacity="0.99609" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g id="A67foEocZnGSzySzc">
+  <title>A67foEocZnGSzySzc</title>
+  <path d="m0,0l1448,0l0,732l-1448,0l0,-732z" id="TQK27NjRftGXnj2de" stroke="#000000" stroke-width="0" fill="#eeeeee"/>
+  <path d="m0,733.65448l1448,0l0,292.61554l-1448,0l0,-292.61554z" id="MxADeBM2zCAFDP22s" stroke="#000000" stroke-width="0" fill="url(#svg_2)"/>
+  <path d="m1175.49121,821.08301z" id="JZS2s9Xaa9DKEMSg5" stroke="#000000" stroke-width="0" fill="#000000"/>
+  <path d="m824.25085,190.41151z" id="Tg3wReesbJvjEC3kj" stroke="#000000" stroke-width="0" fill="#000000"/>
+  <path d="m-12.33506,739.3595c33.95563,-32.3595 1399.31187,-17.94727 1474.92344,-3.46759" id="8SNRs3SCAE3pwJ4Cm" stroke="#568756" stroke-width="9" stroke-opacity="0.57185" fill="#bec8c2" stroke-linecap="round"/>
+ </g>
+</svg>
