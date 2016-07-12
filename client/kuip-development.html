@@ -25,6 +25,7 @@
 <template name="home">
   <div class="content">
     {{> carousel}}
+    {{> attention}}
     {{> services}}
     {{> contact}}
   </div>
@@ -47,7 +48,7 @@
     </a>
     </div>
     <div class="item">
-      <a href="https://vimeo.com/129704353" target="_blank">
+      <a href="https://www.youtube.com/watch?v=HqkqUyvPWRk" target="_blank">
       <img class="stage" src="http://oroboro-oroboro.rhcloud.com/file/Zs6r8kFHXtsFu89JB" alt="and resolution independent vectorial tools (SVG and Geo editing)">
     </a>
     </div>
@@ -58,7 +59,7 @@
       <img class="stage" src="http://oroboro-oroboro.rhcloud.com/file/oqHzDWD8ghTvurt2i" alt="This is Kuip. Welcome to out Keep.">
     </div>
     <div class="item">
-      <a href="https://vimeo.com/129704353" target="_blank">
+      <a href="https://www.youtube.com/watch?v=0y3kNjLsKK0&list=PL323JufuD9JBh3p4P5atyV40B0SXrU99Y" target="_blank">
       <img class="stage" src="http://oroboro-oroboro.rhcloud.com/file/uKrNHyXAogKvr3ruK" alt="Demo created with our vectorial editor (Oroboro)">
     </a>
     </div>
@@ -90,9 +91,22 @@
   </div>
 </template>
 
+<template name="attention">
+  <div class="ui icon message" id="attention">
+    <!--<i class="info icon"></i>-->
+    <img class="ui tiny circular image" src="http://oroboro-oroboro.rhcloud.com/file/HFsgKaiXyYk68YfX7" id="attentionImage">
+    <div class="content">
+      <div class="header">
+        So, where is the poney?
+      </div>
+      <p>If you want to ride along with us, you should know that Kuip is optimized for <b>Chrome</b> and <b>Firefox</b>, Desktop.</p>
+    </div>
+  </div>
+</template>
+
 <template name="services">
   <a name="services">
-    <div class="ui horizontal divider services">
+    <div class="ui horizontal divider" id="services">
       Services
     </div>
   </a>
@@ -139,8 +153,19 @@
       <div class="content">
         <a><div class="ui huge header">SVG Expertise</div></a>
         <div class="meta bigtext">
-          <p>We programmed a complex SVG editor combining powerful SVG editing features with creating and maintaining an online database for sharing, showcasing works, live-collaboration on projects and even creating and performing tutorials and presentations. <a href="https://vimeo.com/129704353" target="_blank">Oroboro</a></p>
+          <p>We programmed a complex SVG editor combining powerful SVG editing features with creating and maintaining an online database for sharing, showcasing works, live-collaboration on projects and even creating and performing tutorials and presentations. <a href="https://www.youtube.com/watch?v=HqkqUyvPWRk" target="_blank">Oroboro</a></p>
           <p>We have custom algorithms for morphing, processing SVG paths</p>
+        </div>
+      </div>
+    </div>
+    <div class="item" style="margin-top: 60px !important;">
+      <div class="ui medium image">
+        <img src="http://oroboro-oroboro.rhcloud.com/file/vEEpL9nGcRkxE9qNt" alt="Experimental Technology">
+      </div>
+      <div class="content">
+        <a><div class="ui huge header">Experimental Technology</div></a>
+        <div class="meta bigtext">
+          <p>We are always experimenting with new ideas and technologies. Watch our <a href="https://www.youtube.com/channel/UCvttYMVLy72hqUolQqtO91Q/videos" target="_blank">video demos!</a></p>
         </div>
       </div>
     </div>
@@ -161,6 +186,14 @@
       </div>
     </div>
   </div>
+</template>
+
+<template name="demos">
+  <a name="demos">
+    <div class="ui horizontal divider">
+      Experimental technologies
+    </div>
+  </a>
 </template>
 
 <template name="contact">

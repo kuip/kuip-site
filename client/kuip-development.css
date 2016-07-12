@@ -88,12 +88,25 @@ body {
   margin: 100px 0px !important;
 }
 
+#services {
+  margin-top: 40px !important;
+}
+
 .flex {
   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
   display: -ms-flexbox;      /* TWEENER - IE 10 */
   display: -webkit-flex;     /* NEW - Chrome */
   display: flex; 
+}
+
+#attention {
+  background: #DFE4E1;
+  margin-top: 100px !important;
+}
+
+#attentionImage {
+  margin-right: 15px;
 }
 
 a {
@@ -122,8 +135,11 @@ a {
   .himage {
     margin-top: -24.5%;
   }
-  .services {
+  /*#services {
     margin-top: 250px !important;
+  }*/
+  #attention {
+    margin-top: 150px !important;
   }
 }
 
